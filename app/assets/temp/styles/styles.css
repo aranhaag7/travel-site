@@ -519,6 +519,9 @@ a {
 		color:#2f5572;
 		font-size:2.4rem;
 		margin:0;
+		/*@mixin atExtraLarge {
+			font-size:4.8rem;
+		}*/
 
 	}
 
@@ -546,19 +549,14 @@ a {
 	}
 	}
 
-@media (min-width:1200px) {
-
-.large-hero__title {
-			font-size:4.8rem
-
-	}
-	}
-
 .large-hero__subtitle {
 		font-weight:300;
 		color:#2f5572;
 		font-size:1.5rem;
 		margin: 0;
+		/*@mixin atExtraLarge {
+			font-size:3.8rem;
+		}*/
 	}
 
 @media (min-width:530px)  {
@@ -582,13 +580,6 @@ a {
 	}
 	}
 
-@media (min-width:1200px) {
-
-.large-hero__subtitle {
-			font-size:3.8rem
-	}
-	}
-
 .large-hero__description {
 		color:#fff;
 		font-size:1.1rem;
@@ -597,6 +588,10 @@ a {
 		margin-left:auto;
 		margin-right:auto;
 		max-width:20rem;
+		/*@mixin atExtraLarge {
+			font-size:1.875rem;
+			max-width:35rem;
+		}*/
 	}
 
 @media (min-width:530px)  {
@@ -620,14 +615,6 @@ a {
 .large-hero__description {
 			font-size:1.5rem;
 			max-width:25rem
-	}
-	}
-
-@media (min-width:1200px) {
-
-.large-hero__description {
-			font-size:1.875rem;
-			max-width:35rem
 	}
 	}
 
@@ -1084,4 +1071,95 @@ a {
 		font-weight:400;
 		font-size:0.9375rem;
 		margin:.25rem 0 1rem 0;
+	}
+
+/*Do not edit modules/_sprite directly as it is generated automatically by Gulp
+ instead edit gulp/templates/sprite*/
+
+.icon {
+			background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
+			}
+
+.icon--clear-view-escapes {
+
+		width: 142.4px;
+		height:59.53px;
+		background-position:0 0;
+	}
+
+.icon--comment {
+
+		width: 64px;
+		height:64px;
+		background-position:99.70443349753694% 0;
+	}
+
+.icon--facebook {
+
+		width: 21.23px;
+		height:42.01px;
+		background-position:26.040607071652357% 45.795830448496034%;
+	}
+
+.icon--fire {
+
+		width: 56px;
+		height:64px;
+		background-position:0 99.56481481481481%;
+	}
+
+.icon--globe {
+
+		width: 64px;
+		height:64px;
+		background-position:27.586206896551722% 99.56481481481481%;
+	}
+
+.icon--instagram {
+
+		width: 42.01px;
+		height:42.01px;
+		background-position:63.2917018534157% 49.234556504346486%;
+	}
+
+.icon--mail {
+
+		width: 64px;
+		height:48px;
+		background-position:0 48.00806451612903%;
+	}
+
+.icon--rain {
+
+		width: 64px;
+		height:64px;
+		background-position:99.70443349753694% 59.25925925925926%;
+	}
+
+.icon--star {
+
+		width: 64px;
+		height:64px;
+		background-position:59.11330049261084% 99.56481481481481%;
+	}
+
+.icon--twitter {
+
+		width: 51.78px;
+		height:42.06px;
+		background-position:94.04330452560171% 98.50700323226104%;
+	}
+
+.icon--wifi {
+
+		width: 60px;
+		height:64px;
+		background-position:68.79227053140097% 0;
+	}
+
+.icon--youtube {
+
+		width: 34.75px;
+		height:42px;
+		background-position:36.69752421959096% 45.792307692307695%;
 	}
